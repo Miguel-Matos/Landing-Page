@@ -25,7 +25,7 @@ img {
 
 #sec1 {
     color: white;
-    background-color: #1F2937;
+    background-color: #5998C5;
     display: flex;
     flex-direction: column;
     
@@ -141,19 +141,43 @@ main {
     height: 100vh;
     display: flex;
     flex-direction: column;
+
 }
 
 footer {
     max-width: 700px;
     color: white;
-    background-color: #1F2937;
+    background-color: #5998C5;
     display: flex;
     justify-content: center;
     margin-top: auto;
-    height: 50px;
+    padding: 40px 0;
     align-items: center;
 }
 
 footer p {
     font-size: 0.7em;
+}
+
+#sec4 {
+    display: flex;
+    padding: 50px;
+    background-color: #A2D2FF;
+    color: white;
+    margin: 50px auto;
+    width: 75%;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#sec4 div {
+    flex: 2;
+}
+
+#sec4 button {
+    flex: 1;
+    border-radius: 15px;
+    background-color: #A2D2FF;
+    color: white;
+    margin: 10px 20px;
 }
